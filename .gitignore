@@ -3,3 +3,6 @@ node_modules/
 .env
 # macOS thumbnail db
 Icon\r
+
+# Files exceeding GitHub's 100MB limit
+cozy_living_room_baked (1).glb
