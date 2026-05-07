@@ -1,0 +1,13 @@
+body{
+    background-image:url(bg1.png);
+    width: 100%; /* Set the desired width */
+    height: 100vh; /* Set the height to the full viewport height */
+   
+    background-size: cover; /* Ensures the image covers the container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+}
+.button-container {
+    margin-top: 450px; /* Adjust value to shift the button downward */
+    margin-left: 50px;
+}

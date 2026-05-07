@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center my-5">
+      <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-md-4" style="margin-top: 15rem;">
+            <div class="card">
+                <h2>View  Flower Vase in AR</h2>
+                <model-viewer 
+                    src="flower_vase.glb" 
+                    ios-src="flower_vase.usdz" 
+                    alt="3D Vase" 
+                    ar 
+                    auto-rotate 
+                    camera-controls>
+                </model-viewer>
+              </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4" style="margin-top: 15rem;">
+          <div class="card mb-4">
+            <img src="M-vase.png" class="card-img-top" alt="Card Image 2" style="height: 15rem;" />
+            <div class="card-body">
+              <h5 class="card-title">Modern Vase</h5>
+              <a href="https://ar.blippar.com/839249452" class="btn btn-primary">Generate QR</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4" style="margin-top: 15rem;">
+            <img src="M-sofa.png" class="card-img-top" alt="Card Image 3" style="height: 15rem;" />
+            <div class="card-body">
+              <h5 class="card-title">Modern sofa</h5>
+              <a href="https://ar.blippar.com/58780719" class="btn btn-primary">Generate QR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
